@@ -1,0 +1,28 @@
+model:
+  student: Qwen/Qwen3-0.6B
+  teacher_outputs: data/teacher_outputs.jsonl   # pre-generated, no live teacher loading
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, v_proj]
+
+training:
+  epochs: 3
+  batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 0.0002
+  warmup_ratio: 0.03
+  lr_scheduler: cosine
+  max_seq_length: 512
+  seed: 42
+
+distillation:
+  temperature: 4.0
+  alpha: 0.7
+
+logging:
+  wandb_project: alignbench
+  save_steps: 500
+  eval_steps: 500

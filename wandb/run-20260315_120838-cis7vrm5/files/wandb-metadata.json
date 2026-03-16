@@ -1,0 +1,40 @@
+{
+  "os": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.7",
+  "startedAt": "2026-03-15T10:08:38.169388Z",
+  "args": [
+    "--config",
+    "configs/lora_sft.yaml",
+    "--seed",
+    "42",
+    "--fast"
+  ],
+  "program": "/Users/youssefabdelrazik/alignbench/train/lora_sft.py",
+  "codePath": "train/lora_sft.py",
+  "codePathLocal": "train/lora_sft.py",
+  "email": "youssef.abdelrazik@student.giu-uni.de",
+  "root": "/Users/youssefabdelrazik/alignbench",
+  "host": "YT-2.local",
+  "executable": "/Users/youssefabdelrazik/alignbench/.venv-train/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "444320006144"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 6,
+    "gpuCores": 14,
+    "memoryGb": 16,
+    "swapTotalBytes": "6442450944",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "u8ehcey9cegwmcr5ayfk7170edclmtuo"
+}

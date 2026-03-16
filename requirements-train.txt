@@ -1,0 +1,11 @@
+# Training — runs on Apple MPS or CUDA, no bitsandbytes needed
+torch>=2.1.0
+transformers>=4.51.0          # minimum for Qwen3 support
+peft>=0.10.0
+trl>=0.8.0
+datasets>=2.18.0
+accelerate>=0.28.0
+pyyaml>=6.0
+wandb>=0.16.0
+tqdm>=4.66.0
+mlx-lm>=0.18.0                # teacher inference only (Apple Silicon)
