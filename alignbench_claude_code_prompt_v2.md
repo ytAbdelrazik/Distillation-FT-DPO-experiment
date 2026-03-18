@@ -1,4 +1,4 @@
-# AlignBench — Claude Code Prompt
+# AlignBench — PLAN
 
 ---
 
